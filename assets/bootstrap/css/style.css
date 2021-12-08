@@ -1,0 +1,269 @@
+
+.body{
+	background-color: rgb(200,200,200);
+}
+
+
+.teks-putih{
+	color: white;
+}
+
+header{
+margin-top: 10px;
+padding-top:5px; 
+line-height: 0.1;
+font-size: 11px;
+background-color: rgb(0,0,0,0.5);
+color: white;
+margin-left:5%;
+width:30%;
+height: 70px;
+
+}
+.margin-left{
+margin-left: 10px;
+
+}
+
+@media screen and (min-width: 1000px) {
+.font{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size:20px;
+}
+	
+}
+.margin-topp{
+	margin-top: 10%;
+}
+
+.margin-top-20{
+	margin-top: 3%;}
+.margin-top-10{
+	margin-top: 2%;
+}
+.margin-top-0{
+	margin-top: 18%;
+}
+.margin-bot-10{
+	margin-bottom:  2%;
+}
+.margin-left-1{
+	margin-left: 8.3%;
+
+}
+.margin-left-modal{
+	margin-left: 2.3%;
+}
+.margin-left-2{
+	margin-left: 16.6%;
+}
+.margin-left-3{
+	margin-left: 24.9%;
+}
+.margin-left-4{
+	margin-left: 33.3%;
+}
+.margin-left-5{
+	margin-left: 41.5%;
+}
+.margin-left-10{
+	margin-left: 8.3%;
+}
+.margin-right-5{
+	margin-right: 10.3%;
+}
+.border-round{
+	border-radius:3px;
+  box-shadow: 0px 3px 3px rgb(200,200,200)
+}
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+.vertical-menu-1 {
+ overflow: auto;
+  white-space: nowrap;
+  background-color: white;
+
+}
+.a-small{
+	color: #00004d;
+	text-transform: uppercase;
+	background-color: white;
+  display: inline-block;
+font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 150px;
+  text-decoration: none;
+
+line-height: 10px;
+margin-left: 15px;
+margin-bottom: 15px;
+margin-top: 15px;
+
+}
+.a-small:hover{
+		color: #00004d;
+background-color: white;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  text-decoration: none;
+
+
+}
+.header-baner{
+height: 30px;
+background-color:#00004d; 
+text-align: center;
+color: white;
+
+font-size: 16px;
+
+}
+.a-link{
+
+color:#00004d;
+}
+.a-link:hover	{
+text-decoration: none;
+color:#00004d;
+}
+.vertical-menu{
+	overflow-y: scroll;
+
+}
+
+.icon{
+	width: 70px;
+	float:left;
+	height: auto;
+}
+.header-title{
+
+	font-size: 20px; height: 70px;
+	
+	font-weight: bold;
+	background-color: rgb(1,1,1,0.85);
+	line-height: 50px;
+	
+}
+
+.high-auto{
+	padding-top: 10px;
+	width: 90%;
+	height: auto;
+}
+.high-auto-modal{
+	
+	width: 100%;
+	height: auto;
+}
+.padding-modal{
+padding-top: 50px;
+
+
+}
+.focus-title:hover{
+	background-color: rgb(50,50,50,0.85);
+}
+.focus-title:focus{
+background-color:rgb(70,70,70,0.85);}
+
+
+@media screen and (max-width: 760px) {
+ div.margin-lebar-1 {
+  margin-left: 4.3%;
+  }
+   div.margin-lebar-10 {
+  margin-right: 4.3%;
+  }
+  .font-s{
+  	font-size: 12px;
+  }
+}
+.text-bayang{
+	text-shadow: 0.5px 0.5px rgb(0,0,0,0.6);
+}
+
+.text-abu:hover{
+color:#0066ff;
+}
+.tidak-tampil{
+	display: none;
+}
+body{
+background-image: url("foto/1.jpeg");
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 100%;
+
+}
+.bg-image{
+background-image: url("foto/mks1.png") ;
+background-repeat: no-repeat;
+background-position: center top;
+background-size:50%;
+
+}
+table{
+	text-align: center;
+}
+
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 250px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 50px; /* Stay at the top */
+  left: 0;
+  background-color: #339966; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.topnav {
+  height: 50px; /* 100% Full-height */
+  width: 100%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(200,200,200); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 10px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.lnav{
+  height: 200px; /* 100% Full-height */
+  width: 200px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 280px; /* Stay at the top */
+  left: 0;
+  background-color:#339966; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 10px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+
+}
+.full{
+  height: 100%; /* 100% Full-height */
+  width: 100%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+ 
+  top: 0; /* Stay at the top */
+  left: 0;
+}
+.margin-left-s{
+margin-left: 300px;	
+}

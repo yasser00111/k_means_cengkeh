@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Area</title>
+
+
+    <link href="../../assets/styles.css" rel="stylesheet" />
+
+    <style>
+        #chart {
+            max-width: 650px;
+            margin: 35px auto;
+        }
+    </style>
+</head>
+
+<body>
+  <my-app></my-app>
+
+    <script src="https://rawgit.com/Microsoft/TypeScript/master/lib/typescriptServices.js"></script>
+    <script src="https://rawgit.com/basarat/typescript-script/master/transpiler.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.2.1/rxjs.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.5.7/core.js"></script>
+    <script src="https://unpkg.com/@angular/core@6.0.5/bundles/core.umd.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zone.js/0.8.26/zone.min.js"></script>
+    <script src="https://unpkg.com/@angular/common@6.0.5/bundles/common.umd.js"></script>
+    <script src="https://unpkg.com/@angular/compiler@6.0.5/bundles/compiler.umd.js"></script>
+    <script src="https://unpkg.com/@angular/platform-browser@6.0.5/bundles/platform-browser.umd.js"></script>
+    <script src="https://unpkg.com/@angular/platform-browser-dynamic@6.0.5/bundles/platform-browser-dynamic.umd.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@latest"></script>
+    <script src="../../assets/stock-prices.js"></script>
+    <script src="https://unpkg.com/ng-apexcharts@1.1.1/bundles/ng-apexcharts.umd.js"></script>
+
+    <script type="text/typescript">
+    // app.js
+
+    const { Component, VERSION } = ng.core;
+
+    @Component({
+      selector: 'my-app',
+      template: `
+      <h1>{{title}} </h1>
+        TODO: Define your Angular ${VERSION.major} component.
+      `
+    })
+    class AppComponent {  
+      title="hello world angular 6";
+      constructor() {
+        // TODO: Define your Angular component implementation
+      }
+    }
+
+
+    // main.js
+    const { BrowserModule } = ng.platformBrowser;
+    const { NgModule } = ng.core;
+    const { CommonModule } = ng.common;
+
+    @NgModule({
+      imports: [
+        BrowserModule,
+        CommonModule,
+      ],
+      declarations: [AppComponent],
+      bootstrap: [AppComponent],
+      providers: []
+    })
+    class AppModule {}
+
+    const { platformBrowserDynamic } = ng.platformBrowserDynamic; 
+
+    platformBrowserDynamic()
+      .bootstrapModule(AppModule)
+      .catch(err => console.error(err));
+
+    console.log('hola');
+    </script>
+</body>
+
+</html>
